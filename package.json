@@ -14,7 +14,8 @@
     "build": "react-app-rewired build",
     "test": "cross-env CI=true react-scripts test --env=jsdom",
     "build-storybook": "build-storybook -s public",
-    "release": "np"
+    "release": "np",
+    "eject": "react-scripts eject"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.4.6",

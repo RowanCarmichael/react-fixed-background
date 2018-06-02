@@ -1,0 +1,8 @@
+.horizontalScrollLayout {
+  display: flex;
+  flex-direction: row;
+}
+
+.horizontalScrollComponent {
+  flex-shrink: 0;
+}

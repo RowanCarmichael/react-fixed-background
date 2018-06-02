@@ -1,0 +1,19 @@
+.backgroundImage {
+  object-fit: cover;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.fullscreenCentered {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.contentText {
+  color: white;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+}

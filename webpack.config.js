@@ -3,9 +3,10 @@ const path = require('path');
 module.exports = {
   entry: path.join(__dirname, 'src/index.js'),
   output: {
-    path: path.resolve(__dirname, 'build'),
-    filename: 'index.js',
-    libraryTarget: 'commonjs2',
+    output: {
+      path: path.join(__dirname, 'dist'),
+      filename: 'index.js',
+    },
   },
   module: {
     rules: [
@@ -32,7 +33,7 @@ module.exports = {
               localIdentName: '[name]__[local]___[hash:base64:5]',
             },
           },
-          require.resolve('sass-loader')
+          require.resolve('sass-loader'),
         ],
       },
       { test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192' },

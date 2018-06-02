@@ -49,7 +49,7 @@
   },
   "scripts": {
     "start": "start-storybook -p 9009 -s public",
-    "build": "webpack --mode production",
+    "build": "webpack",
     "test": "cross-env CI=true node scripts/test.js --env=jsdom",
     "build-storybook": "build-storybook -s public",
     "transpile": "babel src -d dist --copy-files"

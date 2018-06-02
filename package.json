@@ -1,8 +1,8 @@
 {
   "name": "react-fixed-background",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "private": false,
-  "main": "index.js",
+  "main": "build/index.js",
   "dependencies": {
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",

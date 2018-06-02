@@ -1,7 +1,7 @@
 {
   "name": "react-fixed-background",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "node-sass": "^4.9.0",
     "react": "^16.3.2",
